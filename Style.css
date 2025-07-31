@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0c0d0e;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: rgb(36, 34, 34);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px    rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.logo-area {
+  margin-top: 10px;
+}
+
+.logo-area img {
+  max-width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header h1 {
+  margin-bottom: 20px;
+  color: #f7f8fa;
+}
+
+.box {
+  border: 2px solid #011631;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: #2e2f3060;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(7, 5, 5, 0.1); /* ✅ Add this line */
+}
+
+
+h2 {
+  text-align: center;
+  color: #1082f5;
+}
+
+.question {
+  color: #fdfdfc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color:#4a90e2
+}
+
+form input[type="radio"] {
+  margin-right: 8px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4a90e2, #2532f1); /* ✅ Gradient */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+
+button:hover {
+  background: linear-gradient(135deg, #357ab8, #4a90e2); /* reverse gradient */
+}
+
+
+#quizResult, #lastScore, #jokeDisplay {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e5eaee;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+.quiz-question-label {
+  color: #f3f3f8;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* Style for options */
+.quiz-option-label {
+  color: #006666;
+  display: block;
+  margin-left: 10px;
+}
